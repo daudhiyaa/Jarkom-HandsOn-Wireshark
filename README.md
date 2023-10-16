@@ -8,19 +8,19 @@
 
 ### No 1
 
-![Alt text](image.png)
+![Alt text](images/image.png)
 IP Address : 192.168.86.68
 Source Port : 55639
 
 ### No 2
 
-![Alt text](image.png)
+![Alt text](images/image.png)
 IP Address : 128.119.245.12
 Destination Port = 80
 
 ### No 3
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 a. Sequence number (raw) TCP SYN : 4236649187
 
@@ -30,7 +30,7 @@ c. Yes, because SACK allowed in SYN segment
 
 ### No 4
 
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 a. Sequence number (raw) TCP SYNACK : 1068969752
 
@@ -42,7 +42,7 @@ d. From sequence number segmen SYN before, that is 4236649187, plus by one
 
 ### No 5
 
-![Alt text](image-5.png)
+![Alt text](images/image-5.png)
 
 a. Sequence number (raw) : 4236649188
 
@@ -56,7 +56,7 @@ Ans : 4 \* (Payload + Header) = 4 \* (1448 + 32) = 4 \* 1480 = 5920 byte
 
 ### No 10
 
-![Alt text](image-4.png)
+![Alt text](images/image-4.png)
 
 Receiver typically acknowledge 1448 bytes
 
@@ -64,7 +64,7 @@ Receiver typically acknowledge 1448 bytes
 
 ### No 1
 
-![Alt text](image-3.png)
+![Alt text](images/image-3.png)
 
 a. Packet number : 5
 
@@ -78,7 +78,7 @@ UDP header memiliki panjang tetap yaitu 8 bytes. Masing-masing dari 4 fields UDP
 
 ### No 3
 
-![Alt text](image-6.png)
+![Alt text](images/image-6.png)
 
 Length field memiliki value dari header + data. Explicit length value dibutuhkan karena ukuran field data dapat berbeda dari sebuah UDP segment dengan UDP segment setelahnya.
 Length UDP payload pada packet ini adalah 292 bytes - 8 bytes = 284 bytes.
